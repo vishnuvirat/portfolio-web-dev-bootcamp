@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: row;
   font-size: 1.1rem;
-  color: #1a1b1f;
   padding: 1rem 2.2rem 0;
   position: sticky;
   top: 0;
@@ -60,7 +59,7 @@
 .about-paragraph {
   font-size: 1.56rem;
   line-height: 2.2rem;
-  color: #000000;
+  color: gray;
 }
 
 .about-image {
@@ -112,5 +111,148 @@
   font-size: 1.25rem;
   line-height: 2rem;
   padding-left: 3.5rem;
-  color: #000000;
+  color: gray;
+}
+
+.career {
+  display: flex;
+  align-items: center;
+}
+.careerWrapper {
+  display: flex;
+  width: 100%;
+  /* border-style: solid;
+  border-color: red; */
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.careerMain {
+  width: 550px;
+}
+.careerHeading {
+  font-size: 40px;
+}
+.careerInfo {
+  margin-top: 15px;
+  line-height: 1.7rem;
+  color: gray;
+}
+.careerBlocks > div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.careerBlocks {
+  display: flex;
+  flex-wrap: wrap;
+  /* border-style: solid;
+  border-color: green; */
+  width: 500px;
+  margin-left: 80px;
+}
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 1px;
+  width: 1300px;
+  padding: 100px 60px 100px 60px;
+  margin: 200px 0px 200px 0px;
+}
+.contactHeading {
+  font-size: 80px;
+  width: 800px;
+}
+
+.infoFirst {
+  display: flex;
+}
+.infoSecond {
+  margin: 25px 0px 25px 0px;
+}
+
+.messageInput {
+  height: 150px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+}
+
+.infoName {
+  color: gray;
+  font-size: 20px;
+}
+.infoEmail {
+  color: gray;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.box {
+  display: flex;
+  flex-grow: 1;
+}
+.input1 {
+  padding: 20px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #f8f8f8;
+  border: none;
+}
+.input2 {
+  padding: 20px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #f8f8f8;
+  border: none;
+}
+.infoButton {
+  color: white;
+  border: 1px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 16px 25px 12px 25px;
+  text-align: center;
+}
+.footerBox {
+  display: flex;
+  flex-grow: 1;
+}
+.footer {
+  display: flex;
+  width: 1300px;
+  margin: 100px 50px 50px 50px;
+}
+.footerBottom {
+  display: flex;
+}
+.footerBottom > div {
+  color: gray;
+  font-size: 20px;
+  margin: 0px 20px 0px 20px;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 15px;
+  margin: 10px 0px 50px 0px;
 }

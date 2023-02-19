@@ -15,9 +15,10 @@
   top: 0;
 }
 
-.navbar > div {
+.navbar > a {
   padding: 1rem 1.2rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar-flexdiv {
@@ -223,6 +224,7 @@
 .infoButton {
   color: white;
   border: 1px;
+  cursor: pointer;
   background-color: black;
   border-radius: 10px;
   padding: 16px 25px 12px 25px;
@@ -240,10 +242,11 @@
 .footerBottom {
   display: flex;
 }
-.footerBottom > div {
+.footerBottom > a {
   color: gray;
   font-size: 20px;
   margin: 0px 20px 0px 20px;
+  cursor: pointer;
 }
 .footerWrapper {
   display: flex;
